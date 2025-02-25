@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <form name="myform" onsubmit="return vfun()">
+        <select>
+            <option>COUNTRY</option> 
+            <option>INDIA +91</option> 
+            <option>SINGAPORE</option> 
+            <option>PARIS</option> 
+            <option>NEW YORK</option> 
+            <option>ENGLAND</option> 
+            <option>AMERICA</option> 
+            <option>CANADA</option>
+        </select>
+        <a href="otp.html">
+        <p>Phone Number</p>
+        <input type="text" name="PhoneNumber" placeholder="Enter Phone Number" required>
+        <input type="submit" value="OTP Sent" onclick="alert('OTP Sent')" 
+        style="background-color: rgb(5, 170, 5); color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">
+    </form><br><br>
+    <select id="theme-selector">
+        <option value="light">Light Theme</option>
+        <option value="dark">Dark Theme</option>
+    </select>
+</body>
+</html>

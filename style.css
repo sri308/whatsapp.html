@@ -1,0 +1,36 @@
+body {
+   text-align: left;
+   font-weight: bold;
+   margin: 150px;
+   background: url("whatsapp-ios-ar-filter.avif");
+   background-size: cover;
+   background-position: center;
+   color: rgb(0, 0, 0);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+}
+header {
+   font-size: 50px;
+}
+form {
+   text-align: left;
+   font-weight: bold;
+   margin-right: 150px;
+   margin-top: 250px;
+   background-size: cover;
+   background-position: center;
+}
+p {
+   font-size: 19px;
+   text-align: left; 
+   font-style: italic;
+}
+.box input {
+   color: rgb(59, 0, 117);
+   border-style: solid;
+   box-sizing: border-box;
+   width: 190px;
+   margin: 1px 0;
+   padding: 5px;
+}
